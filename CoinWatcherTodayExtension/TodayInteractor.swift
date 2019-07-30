@@ -22,6 +22,10 @@ final class TodayInteractor: TodayInteraction {
     init(withDisplayLayer displayLayer: TodayViewDisplay) {
         self.displayLayer = displayLayer
         let coinWatcherDependencies = DefaultCoinWatcherDependencies()
+        
+        // The Today Extension will need to refresh itself every 10 seconds.
+        coinWatcherDependencies.refreshInterval = 10.0
+        
         coinSource = CoinWatcher(with: coinWatcherDependencies)
     }
     
