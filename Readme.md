@@ -7,7 +7,7 @@ This app does the following:
 
 ## How do I run this?
 * Unzip the CoinWatcher zip file.
-* Open CoinWatcher.xcworkspace
+* Open **CoinWatcher.xcworkspace**
 * To run the app, select the `CoinWatcher` scheme, then, build and run.
 * To run the today extension, select the `CoinWatcherTodayExtension` scheme, then, build and run.
 * To run the SDK framework, select the `CoinWatcherSDK` scheme, then, build and run.
